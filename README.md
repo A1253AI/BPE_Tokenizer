@@ -41,8 +41,8 @@ Every token (character, subword, or word) must be mapped to a **unique integer I
 
 1. Cost Calculation for API Usage  
 What it does: Counts exact tokens to predict API costs  
-Why it's crucial:  
-OpenAI charges by tokens, not words  
+Why it's crucial:
+Majority LLM Vendors charge by tokens, not words  
 1,000 tokens ≠ 1,000 words (usually ~750 words)  
 Helps budget API expenses before making API calls  
 Ex: 500-word document might be 650 tokens = $0.013 for GPT-4 processing (instead of guessing)    
