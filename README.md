@@ -3,7 +3,7 @@ A tokenizer that processes a text file and shows tokens with their token IDs usi
 
 # BPE originally stands for Byte Pair Encoding because it operates at the byte level, not at the character or word level.
 
-Since a byte consists of 8 bits, there are 2^8 = 256 possible values that a single byte can represent, ranging from 0 to 255
+Since a byte consists of 8 bits, there are 2^8 = 256 possible values that a single byte can represent, ranging from 0 to 255  
 0–255	All possible byte values (base vocabulary)  
 256+	Merged subwords built by BPE  
 
