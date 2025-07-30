@@ -39,21 +39,21 @@ Every token (character, subword, or word) must be mapped to a **unique integer I
 
 # Advantages of knowing BPE implementation:
 
-1. Cost Calculation for API Usage
-What it does: Counts exact tokens to predict API costs
-Why it's crucial:
-OpenAI charges by tokens, not words
-1,000 tokens ≠ 1,000 words (usually ~750 words)
-Helps budget API expenses before making API calls
-Ex: 500-word document might be 650 tokens = $0.013 for GPT-4 processing (instead of guessing)  
+1. Cost Calculation for API Usage  
+What it does: Counts exact tokens to predict API costs  
+Why it's crucial:  
+OpenAI charges by tokens, not words  
+1,000 tokens ≠ 1,000 words (usually ~750 words)  
+Helps budget API expenses before making API calls  
+Ex: 500-word document might be 650 tokens = $0.013 for GPT-4 processing (instead of guessing)    
 
-3. Prompt Engineering & Optimization 
-What it does: Helps write more efficient prompts
-Why it helps:
-Models have token limits (e.x 4,096 tokens for some models)
-Shorter prompts = faster responses + lower costs
-Identifies which phrasings use fewer tokens
-Ex: "Please explain this" (3 tokens) vs "Could you kindly provide an explanation of this" (9 tokens)
+3. Prompt Engineering & Optimization     
+What it does: Helps write more efficient prompts  
+Why it helps:  
+Models have token limits (e.x 4,096 tokens for some models)  
+Shorter prompts = faster responses + lower costs  
+Identifies which phrasings use fewer tokens  
+Ex: "Please explain this" (3 tokens) vs "Could you kindly provide an explanation of this" (9 tokens)  
 
 
 
