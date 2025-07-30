@@ -3,6 +3,8 @@ A tokenizer that processes a text file and shows tokens with their token IDs usi
 
 The main idea in tokenizer which uses BPE algorithm is to convert text tokens into an integer representation.
 
+['I','love','NLP'] --> [21,67,55]
+
 The goal of the BPE tokenization algorithm is to build a vocabulary of commonly occurring subwords.
 
 ['h', 'i', 'g', 'h', '</w>']  
