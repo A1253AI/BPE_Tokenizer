@@ -7,6 +7,9 @@ The main idea in tokenizer which uses BPE algorithm is to convert text tokens in
 
 The goal of the BPE tokenization algorithm is to build a vocabulary of commonly occurring subwords.
 
+for ex:
+#high higher highest#  
+
 ['h', 'i', 'g', 'h', '</w>']  
 ['h', 'i', 'g', 'h', 'e', 'r', '</w>']  
 ['h', 'i', 'g', 'h', 'e', 's', 't', '</w>']  
@@ -22,6 +25,7 @@ The goal of the BPE tokenization algorithm is to build a vocabulary of commonly 
 ('s', 't') → 1  
 ('t', '</w>') → 1
 
-Assign token ID 256 → 'gh' - gh comes first as per alphabetical order, and in next iteration we id next most common element and so on. We try other common combinations as well like ('i','gh') -> 3 , ('h', 'igh') → 3  etc.
+BPE assign token ID 256 → 'gh' - as gh has highest frequency in occurence and it comes first as per alphabetical order, and in next iteration we id next most common element and so on.  
+We try other common   combinations as well like ('i','gh') -> 3 , ('h', 'igh') → 3  etc.    
 
 
