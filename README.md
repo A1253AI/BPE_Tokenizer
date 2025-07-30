@@ -1,6 +1,6 @@
 # BPE_Tokenizer
 
-The main idea in tokenizer which uses BPE algorithm is to convert text tokens into an integer representation.
+The main idea of a tokenizer using the BPE algorithm is to segment text into subword units based on frequently occurring character pairs, and then convert those subwords into a unique integer representation.
 
 ['I','love','NLP'] --> [21,67,55]
 
