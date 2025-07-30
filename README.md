@@ -4,7 +4,7 @@ The main idea of a tokenizer using the BPE algorithm is to segment text into sub
 
 ['I','love','NLP'] --> [21,67,55]
 
-How BPE training data is different from LLM?
+How BPE training data is different from LLM training data?
 
 BPE training data consists of small text corpora used to learn frequent character pairs and build a subword vocabulary, enabling efficient and consistent   tokenization. In contrast, LLM training data comprises massive, tokenized datasets (often in terabytes) drawn from diverse sources like books, websites, and code,   used to teach the model to predict the next token in a sequence. BPE runs before LLM training and defines how raw text is broken into tokens, which the LLM then   learns to model statistically.  
 
