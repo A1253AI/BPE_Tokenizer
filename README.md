@@ -1,15 +1,14 @@
 # BPE_Tokenizer
-A tokenizer that processes a text file and shows tokens with their token IDs using tiktoken BPE.
-
-# BPE originally stands for Byte Pair Encoding because it operates at the byte level, not at the character or word level.
-
-Since a byte consists of 8 bits, there are 2^8 = 256 possible values that a single byte can represent, ranging from 0 to 255  
-0–255	All possible byte values (base vocabulary)  
-256+	Merged subwords built by BPE  
 
 The main idea in tokenizer which uses BPE algorithm is to convert text tokens into an integer representation.
 
 ['I','love','NLP'] --> [21,67,55]
+
+# BPE originally stands for Byte Pair Encoding because it operates at the byte level, not at the character or word level.
+
+Since a byte consists of 8 bits, there are 2^8 = 256 possible values that a single byte can represent, ranging from 0 to 255  
+0–255	--> All possible byte values (base vocabulary)  
+256+	Merged subwords built by BPE  
 
 The goal of the BPE tokenization algorithm is to build a vocabulary of commonly occurring subwords.
 
