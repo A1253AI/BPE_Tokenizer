@@ -25,7 +25,7 @@ for ex:
 ('s', 't') → 1  
 ('t', '</w>') → 1
 
-BPE assign token ID 256 → 'gh' - as gh has highest frequency in occurence and it comes first as per alphabetical order, and in next iteration we id next most common element and so on.  
+BPE assigns token ID 256 → 'gh' - as gh has highest frequency in occurence and it comes first as per alphabetical order, and in next iteration we id next most common element and so on.  
 We try other common   combinations as well like ('i','gh') -> 3 , ('h', 'igh') → 3  etc.    
 
 
