@@ -5,9 +5,9 @@ The main idea in tokenizer which uses BPE algorithm is to convert text tokens in
 
 The goal of the BPE tokenization algorithm is to build a vocabulary of commonly occurring subwords.
 
-['h', 'i', 'g', 'h', '</w>']
-['h', 'i', 'g', 'h', 'e', 'r', '</w>']
-['h', 'i', 'g', 'h', 'e', 's', 't', '</w>']
+['h', 'i', 'g', 'h', '</w>']  
+['h', 'i', 'g', 'h', 'e', 'r', '</w>']  
+['h', 'i', 'g', 'h', 'e', 's', 't', '</w>']  
 
 ('h', 'i') → 3  
 ('i', 'g') → 3  
