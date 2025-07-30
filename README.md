@@ -37,7 +37,7 @@ We tokenize other common combinations as well like ('i','gh') -> 3 , ('h', 'igh'
 
 Every token (character, subword, or word) must be mapped to a **unique integer ID** that can later be embedded and processed by the LLM model.
 
-#Advantages of knowing BPE implementation:
+# Advantages of knowing BPE implementation:
 
 1. Cost Calculation for API Usage
 What it does: Counts exact tokens to predict API costs
