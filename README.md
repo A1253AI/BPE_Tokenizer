@@ -8,7 +8,7 @@ The main idea in tokenizer which uses BPE algorithm is to convert text tokens in
 
 Since a byte consists of 8 bits, there are 2^8 = 256 possible values that a single byte can represent, ranging from 0 to 255  
 0–255	--> All possible byte values (base vocabulary)  
-256+	Merged subwords built by BPE  
+256+ -->	Merged subwords built by BPE  
 
 The goal of the BPE tokenization algorithm is to build a vocabulary of commonly occurring subwords.
 
