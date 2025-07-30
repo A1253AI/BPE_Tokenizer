@@ -32,7 +32,7 @@ for ex:
 ('s', 't') → 1  
 
 
-BPE assigns token ID 256 → 'gh' - as gh has highest frequency in occurence and it comes first as per alphabetical order as compare other highest frequncies, and in next iteration we id next most common elements and so on.  
+In above case BPE assigns token ID 256 → 'gh' - as gh has highest frequency in occurence and it comes first as per alphabetical order as compare other highest frequncies, and in next iteration we id next most common elements and so on.  
 We tokenize other common combinations as well like ('i','gh') -> 3 , ('h', 'igh') → 3  etc.   
 
 Every token (character, subword, or word) must be mapped to a **unique integer ID** that can later be embedded and processed by the LLM model.
