@@ -10,7 +10,7 @@ The goal of the BPE tokenization algorithm is to build a vocabulary of commonly 
 for ex:  
 # high higher highest  
 
-['h', 'i', 'g', 'h', '</w>']  
+['h', 'i', 'g', 'h', '</w>']   
 ['h', 'i', 'g', 'h', 'e', 'r', '</w>']  
 ['h', 'i', 'g', 'h', 'e', 's', 't', '</w>']  
 
