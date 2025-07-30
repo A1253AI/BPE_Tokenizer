@@ -7,8 +7,8 @@ The main idea in tokenizer which uses BPE algorithm is to convert text tokens in
 
 The goal of the BPE tokenization algorithm is to build a vocabulary of commonly occurring subwords.
 
-for ex:
-#high higher highest#  
+for ex:  
+# high higher highest  
 
 ['h', 'i', 'g', 'h', '</w>']  
 ['h', 'i', 'g', 'h', 'e', 'r', '</w>']  
