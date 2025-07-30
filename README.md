@@ -4,6 +4,10 @@ The main idea in tokenizer which uses BPE algorithm is to convert text tokens in
 
 ['I','love','NLP'] --> [21,67,55]
 
+How BPE training data is different from LLM?
+
+BPE training data consists of small text corpora used to learn frequent character pairs and build a subword vocabulary, enabling efficient and consistent   tokenization. In contrast, LLM training data comprises massive, tokenized datasets (often in terabytes) drawn from diverse sources like books, websites, and code,   used to teach the model to predict the next token in a sequence. BPE runs before LLM training and defines how raw text is broken into tokens, which the LLM then   learns to model statistically.  
+
 # BPE originally stands for Byte Pair Encoding because it operates at the byte level, not at the character or word level.
 
 Since a byte consists of 8 bits, there are 2^8 = 256 possible values that a single byte can represent, ranging from 0 to 255  
